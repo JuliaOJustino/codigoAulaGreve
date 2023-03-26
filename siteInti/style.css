@@ -1,0 +1,57 @@
+body{
+    background-image: url(Imagens/fundo.png);
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-ul{
+    list-style: none;
+    padding: 0;
+}
+.menu-ul li{
+    display: inline;
+    color: #f1a008;
+    padding: 15px;
+}
+.menu-ul li a{
+    color: #f1a008;
+    padding: 20px; 
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div.navbar{
+    border-radius: 4px;
+    display: flex;
+    align-items: right;
+    padding:10px;
+    background-color: rgb(0, 0, 0);
+    flex-wrap: wrap;
+    
+}
+.titulo{
+    color: aqua;
+    font-size: 25pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+hr{
+    height: 5px;
+    background-color: aqua;
+    border-style: none;
+    margin-bottom: 10%;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+.parteFrase{
+    color: aqua;
+}
+.frase{
+    text-align: center;
+    font-size: 26pt;
+    background-color: rgba(0, 0, 0, 0.767);
+
+}
